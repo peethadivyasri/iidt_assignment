@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="color-box" id="color-box">
+        <div class="color-info" id="color-info">
+            <div class="color-sample" id="color-sample">
+                <p><span style="font-weight: bold;">Background Color:</span> <span id="color-code">#FFFFFF</span></p>
+            </div>
+        </div>
+        <div class="click-box">
+            <button id="btn-flip" onclick="changeColor()">Click Me</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
